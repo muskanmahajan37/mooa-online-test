@@ -1,0 +1,32 @@
+[
+  {
+    "name": "app1",
+    "selector": "app1-root",
+    "baseScriptUrl": "/assets/app1",
+    "styles": [
+      "styles.bundle.css"
+    ],
+    "prefix": "app/app1",
+    "scripts": [
+      "inline.bundle.js",
+      "polyfills.bundle.js",
+      "main.bundle.js"
+    ],
+    "parentElement": "app-root"
+  },
+  {
+    "name": "help",
+    "selector": "help-root",
+    "baseScriptUrl": "/assets/help",
+    "styles": [
+      "styles.bundle.css"
+    ],
+    "prefix": "/",
+    "scripts": [
+      "inline.bundle.js",
+      "polyfills.bundle.js",
+      "main.bundle.js"
+    ],
+    "parentElement": "app-root"
+  }
+]
