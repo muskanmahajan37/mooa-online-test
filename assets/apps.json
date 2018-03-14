@@ -1,8 +1,8 @@
 [
   {
     "name": "app1",
-    "selector": "app1-root",
-    "baseScriptUrl": "/mooa-online-test/assets/app1",
+    "selector": "app-app1",
+    "baseScriptUrl": "/assets/app1",
     "styles": [
       "styles.bundle.css"
     ],
@@ -12,21 +12,21 @@
       "polyfills.bundle.js",
       "main.bundle.js"
     ],
-    "parentElement": "app-root"
+    "parentElement": "app-home"
   },
   {
     "name": "help",
     "selector": "help-root",
-    "baseScriptUrl": "/mooa-online-test/assets/help",
+    "baseScriptUrl": "/assets/help",
     "styles": [
       "styles.bundle.css"
     ],
-    "prefix": "/",
+    "prefix": "app/home",
     "scripts": [
       "inline.bundle.js",
       "polyfills.bundle.js",
       "main.bundle.js"
     ],
-    "parentElement": "app-root"
+    "parentElement": "app-home"
   }
 ]
