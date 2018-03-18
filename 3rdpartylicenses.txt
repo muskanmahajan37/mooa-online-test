@@ -41,7 +41,7 @@ rebirth-echarts@5.0.0
 MIT
 MIT
 
-mooa@0.0.18
+mooa@0.0.38
 MIT
 License (MIT)
 
